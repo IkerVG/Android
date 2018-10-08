@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practica4</string>
+
+    <string name="nombre">Selecciona los deportes que te gustan y pulsa Aceptar</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spinner Simple</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="selecciona_una_opcion">Selecciona una opción:</string>
+
+</resources>

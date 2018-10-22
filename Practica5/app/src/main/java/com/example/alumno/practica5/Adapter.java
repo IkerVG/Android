@@ -16,6 +16,15 @@ public class Adapter extends ArrayAdapter<Articulo> {
     Adapter(Activity contexto, ArrayList<Articulo> datos){
         super(contexto,R.layout.lstvw,datos);
         this.contexto=contexto;
+          /*  if (datos.get(position).isComprado()) {
+            nombreArticulo.setPaintFlags(nombreArticulo.getPaintFlags() |
+                    Paint.STRIKE_THRU_TEXT_FLAG);
+            nombreArticulo.setTextColor(Color.parseColor("#00FF00"));
+        } else{
+            nombreArticulo.setPaintFlags(nombreArticulo.getPaintFlags()
+                    & ~Paint.STRIKE_THRU_TEXT_FLAG);
+            nombreArticulo.setTextColor(Color.parseColor("#FF0000"));
+        }*/
 
     }
     public View getView(int position, View convertView, ViewGroup parent)
@@ -32,18 +41,11 @@ public class Adapter extends ArrayAdapter<Articulo> {
 
 
 
+
         // Devolvemos la Vista (nueva o reutilizada) que dibuja la opcion
         return(item);
     }
-    if (datos.get(position).isComprado()) {
-        nombreArticulo.setPaintFlags(nombreArticulo.getPaintFlags() |
-                Paint.STRIKE_THRU_TEXT_FLAG);
-        nombreArticulo.setTextColor(Color.parseColor("#00FF00"));
-    } else{
-        nombreArticulo.setPaintFlags(nombreArticulo.getPaintFlags()
-                & ~Paint.STRIKE_THRU_TEXT_FLAG);
-        nombreArticulo.setTextColor(Color.parseColor("#FF0000"));
-    }
+
 
 
 }

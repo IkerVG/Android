@@ -78,5 +78,11 @@
         android:gravity="center_vertical|center_horizontal"
         android:text="Enviar"
         android:textSize="18sp"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:onClick="enviar"/>
+
+
+
+
+
 </LinearLayout>

@@ -9,7 +9,7 @@ public class Data {
         this.img = img;
         this.texto = texto;
         this.txt2 = txt2;
-        this.txt3 = txt3;
+        this.txt3 = txt3 +" cm";
         this.txt4 = txt4;
     }
 

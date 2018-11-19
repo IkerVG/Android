@@ -11,10 +11,14 @@
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:entries="@array/array_name"/>
+        android:background="@android:color/holo_blue_light"
+        android:entries="@array/array_name" />
 
     <ListView
         android:id="@+id/lstvw"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:divider="@android:color/black"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false" />
 </LinearLayout>

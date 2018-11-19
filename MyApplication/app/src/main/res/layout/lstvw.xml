@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:divider="@android:color/black"
     android:orientation="vertical">
 
     <LinearLayout
@@ -15,7 +17,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="767dp"
-            android:layout_height="267dp"
+            android:layout_height="167dp"
             android:layout_margin="10dp"
             android:layout_weight="3"
             app:srcCompat="@drawable/ic_launcher" />
@@ -31,25 +33,30 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="@android:color/white" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

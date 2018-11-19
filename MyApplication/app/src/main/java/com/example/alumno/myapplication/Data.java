@@ -9,8 +9,8 @@ public class Data {
         this.img = img;
         this.texto = texto;
         this.txt2 = txt2;
-        this.txt2 = txt3;
-        this.txt2 = txt4;
+        this.txt3 = txt3;
+        this.txt4 = txt4;
     }
 
     public int getTitulo(){
